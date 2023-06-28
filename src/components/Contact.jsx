@@ -23,7 +23,7 @@ const Contact = () => {
         <form className="mt-12 flex flex-col">
           <button
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-            onChange={(location.href = "https://t.me/BarnieStinson")}
+            onClick={() => (window.location = "mailto:smagulovdastan@gmail.com")}
           >
             Say Hi
           </button>
