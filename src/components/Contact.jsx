@@ -21,12 +21,12 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form className="mt-12 flex flex-col">
-            <button
-              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-              onClick={location.href='https://t.me/BarnieStinson'}
-            >
-              Say Hi
-            </button>
+          <button
+            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            onChange={(location.href = "https://t.me/BarnieStinson")}
+          >
+            Say Hi
+          </button>
         </form>
       </motion.div>
 
